@@ -1,0 +1,49 @@
+/* fonts.google.com - poppins */
+/* box icons - boxicons.com */
+/* 1 rem is 16px */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*when adding padding width of that element is not affected*/
+    font-size: 62.5%;
+}
+
+body{
+    font-family:"poppins",sans-serif;
+    background-color: rgb(215, 240, 244);
+}
+a{
+    text-decoration: none;
+    font-weight: 400; /*normal*/
+    font-size: 1.6rem; /*1.6 rem = 16px*/
+}
+
+.ul{
+    list-style-type: none;
+}
+.ul li a{
+    color:black;      
+    float: left; 
+    margin-right: 3rem;
+}
+
+.item{
+    border: 1px solid red;
+    padding: 3rem;
+    background-color: blueviolet;
+}
+.item-1{
+    border: none;
+    padding-top: 1rem;
+
+}
+.item-2,.item-3,.item-4{
+    padding: 5rem;
+    margin-top: 2rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
