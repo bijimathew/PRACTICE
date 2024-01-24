@@ -23,6 +23,13 @@ nav .left{
     font-size: 40px;
 
 }
+nav .right{
+    border: 1px solid black;
+    padding: 12px;
+    margin-top: 14px;
+    border-radius: 10px;
+
+}
 
 nav ul{
     display: flex;
