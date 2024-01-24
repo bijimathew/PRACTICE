@@ -24,8 +24,26 @@ a{
     list-style-type: none;
 }
 .ul li a{
-    float: left;
-    display: block;
-    padding: 1.6rem;
-    color:black;        
+    color:black;      
+    float: left; 
+    margin-right: 3rem;
+}
+
+.item{
+    border: 1px solid red;
+    padding: 3rem;
+    background-color: blueviolet;
+}
+.item-1{
+    border: none;
+    padding-top: 1rem;
+
+}
+.item-2,.item-3,.item-4{
+    padding: 5rem;
+    margin-top: 2rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
 }
