@@ -26,8 +26,9 @@ nav .left{
 }
 nav .right{
 
-    padding: 12px;
+    padding: 10px;
     margin-top: 14px;
+    padding-left: 10rem;
     
 
 
@@ -35,27 +36,33 @@ nav .right{
 /*_______________________ yeh search button ki css hai___________________________________ */
 #form {
     background-color:#3aafa9 ;
-    border: hidden;
-    border-radius: 10px;
+    border: 1px solid rgb(31, 31, 31);
+    border-radius: 25px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-top: 18px;
     
 
 }
 #form:hover{
     box-shadow: -1px 0 coral, 0 1px rgb(201, 12, 135), 1px 0 coral, 0 -1px rgb(224, 12, 164);
-    transition: 0.7s;
+    border: hidden;
+    transition: 0.4s;
 }
 input{
     all: unset;
+    text-align:center;
     font: 16px system-ui;
-    height: 10%;
-    padding: 6px 10px;
+    height: 5%;
+
 }
 ::placeholder{
     color: #17252a;
     opacity: 0.6;
+    text-align: center;
+
+    
 }
 
 button{
