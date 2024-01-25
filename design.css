@@ -39,7 +39,7 @@ nav .right{
 /*_______________________ yeh search button ki css hai___________________________________ */
 #form {
     background-color:#3aafa9 ;
-    border: 1px solid rgb(31, 31, 31);
+    border: 1px solid rgb(178, 246, 220);
     border-radius: 2.5rem;
     display: flex;
     flex-direction: row;
@@ -49,8 +49,9 @@ nav .right{
 
 }
 #form:hover{
-    box-shadow: -1px 0 coral, 0 1px rgb(201, 12, 135), 1px 0 coral, 0 -1px rgb(224, 12, 164);
-    border: hidden;
+    /* box-shadow: -1px 0 coral, 0 1px rgb(201, 12, 135), 1px 0 coral, 0 -1px rgb(224, 12, 164); */
+    
+    border: 1px solid rgb(23, 22, 22);
     transition: 0.4s;
 }
 input{
